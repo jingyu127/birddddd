@@ -1,0 +1,17 @@
+/* 確保整個頁面的邊距和填充為零 */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 防止視窗出現滾動條 */
+    background-color: #333; /* 設置一個深色背景 */
+    height: 100%; /* 確保 body 填滿整個視窗 */
+    display: flex; /* 使用 flexbox 幫助畫布置中 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+/* 確保畫布顯示為區塊元素，並移除可能存在的間距 */
+canvas {
+    display: block;
+    /* 讓畫布在頁面中居中 */
+}
